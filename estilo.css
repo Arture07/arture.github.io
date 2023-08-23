@@ -91,3 +91,9 @@ div {
     border-style: outset;
     border-width: 10px;
 }
+
+@media (max-width: 600px) {
+    section {
+        padding: 1rem;
+    }
+}
