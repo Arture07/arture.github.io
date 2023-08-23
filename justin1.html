@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Bieber e Restart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Blog Retrô</h1>
+        <p>Explorando o mundo de Justin Bieber e Restart</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" onclick="loadArticle('Inicio2.html')">Início</a></li>
+            <li><a href="#" onclick="loadArticle('justin.html')">Justin Bieber - Artigo 1</a></li>
+            <li><a href="#" onclick="loadArticle('justin2.html')">Justin Bieber - Artigo 2</a></li>
+            <li><a href="#" onclick="loadArticle('restart1.html')">Restart - Artigo 1</a></li>
+            <li><a href="#" onclick="loadArticle('restart2.html')">Restart - Artigo 2</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <iframe id="article-frame" src="placeholder.html" frameborder="0"></iframe>
+    </main>
+
+    <script>
+        function loadArticle(article) {
+            document.getElementById('article-frame').src = article;
+        }
+    </script>
+</body>
+</html>
