@@ -82,3 +82,9 @@ iframe a {
 iframe a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+    section {
+        padding: 1rem;
+    }
+}
